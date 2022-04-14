@@ -1,0 +1,16 @@
+{
+  "name": "2-meeti",
+  "version": "1.0.0",
+  "description": "Aprendiendo Bs Con sass",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:build/css",
+    "build:sass": "purgecss -css build/css/style.css -con index.html -o build/css/meeti.css"
+  },
+  "author": "Luciano Gonzalez",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.50.0"
+  }
+}
